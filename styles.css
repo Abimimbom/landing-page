@@ -25,7 +25,8 @@ body {
 .nav-items {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
 
     flex-basis: 80%;
 }
@@ -59,11 +60,12 @@ li a {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
+    align-items: center;
 }
 
 .box {
     display: flex;
-    width: 900px;;
+    width: 900px;
     background-color: grey;
     justify-content: center;
     align-items: center;
@@ -100,6 +102,7 @@ li a {
     font-weight: 600;
     font-size: 16px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .hero-main,
@@ -202,6 +205,7 @@ li a {
     background-color: transparent;
     padding: .5rem 2rem;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .left p {
@@ -225,6 +229,12 @@ h2 {
     background-color: #1F2937;
     color: #E5E7EB;
     padding: 10px 0;
+}
+
+span a {
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
 }
 
 
