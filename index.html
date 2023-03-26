@@ -5,82 +5,142 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Landing Page</title>
+    <title>Hikr. - Meet, Greet, Hike</title>
   </head>
   <body>
-
-    <nav class="nav-container">
-      <div class="nav-items">
-        <h1 class="logo">Header Logo</h1>
-        <ul class="links">
-          <li><a href="#">Header 1</a></li>
-          <li><a href="#">Header 2</a></li>
-          <li><a href="#">Header 3</a></li>
-        </ul>
+    <nav class="hero-navigation">
+      <div class="nav-container">
+        <div class="nav">
+          <div class="logo">Hikr<span>.</span></div>
+          <div class="links">
+            <ul>
+              <li class="selected">Platform</li>
+              <li>How it works</li>
+              <li>Features</li>
+            </ul>
+          </div>
+          <div>
+            <button class="download-btn">Download</button>
+          </div>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="hero-container">
+          <div class="text">
+            <div class="main-text">
+              <h1>Make friends while doing what you love.</h1>
+            </div>
+            <div class="sub-text">
+              <p>
+                Meet new people and join a community of hikers, form groups or
+                teams, go out, have fun and enjoy. Our app allows you to meet
+                hikers around you so you don’t have to hike alone.
+              </p>
+            </div>
+            <div class="btns">
+              <button class="get-started">Get Started</button>
+              <button class="signup">Sign Up</button>
+            </div>
+          </div>
+          <div class="iphone-img">
+            <img
+              src="images/Iphone.png"
+              alt="Image of app on an iPhone screen"
+            />
+          </div>
+        </div>
       </div>
     </nav>
+    <!-- Hero section ends here. -->
 
-    <section class="hero-container">
-      <div class="hero">
-        <div class="text">
-          <h1 class="hero-main">This website is awesome</h1>
-          <p class="hero-secondary">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-          <button class="signup">Sign up</button>
+    <section class="works-container">
+      <div class="main-container">
+        <div class="heading">
+          <h2>How it works.</h2>
+          <p>Our app let’s you do the most, with less steps in-between.</p>
         </div>
-        <div class="box">
-          This is a placeholder for an image
+        <div class="steps-container">
+          <div class="steps step1">
+            <img src="images/layout-template.svg" alt="Visit our website" />
+            <h3>Step 1.</h3>
+            <p>
+              Visit our website to downloaded the Hikr. website in order to get
+              the latest version of the app.
+            </p>
+          </div>
+          <div class="steps step2">
+            <img src="images/file-down.svg" alt="download icon" />
+            <h3>Step 2.</h3>
+            <p>
+              After being redirected to your app store, proceed to download the
+              app.
+            </p>
+          </div>
+          <div class="steps step3">
+            <img src="images/package-open.svg" alt="Open icon" />
+            <h3>Step 3.</h3>
+            <p>
+              Open the app and follow the steps to sign in or creat and account
+              if you don’t have one already.
+            </p>
+          </div>
+          <div class="steps step4">
+            <img src="images/log-in.svg" alt="Log in icon" />
+            <h3>Step 4.</h3>
+            <p>
+              After signing in, proceed to search for people around you who may
+              be interested on going on a hike with you. Have fun!
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="card-container">
-        <h1>Some random information</h1>
-      <div class="card-items">
-        <div class="card">
-          <div class="image">
-            <img src="" alt=""></div>
-            <p>This is some subtext under the illustration or image</p>
+    <section class="testimonials">
+      <div class="test-container">
+        <div class="main-title">
+          <h2>What our users think.</h2>
+          <p>First hand testimonials from our users.</p>
         </div>
-        <div class="card">
-          <div class="image">
-            <img src="" alt=""></div>
-            <p>This is some subtext under the illustration or image</p>
-        </div>
-        <div class="card">
-          <div class="image">
-            <img src="" alt=""></div>
-            <p>This is some subtext under the illustration or image</p>
-        </div>
-        <div class="card">
-          <div class="image">
-            <img src="" alt=""></div>
-            <p>This is some subtext under the illustration or image</p>
+        <div class="testimonial-card">
+          <div class="slide-card">
+            <div class="arrows"><svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M372 948 21 597q-5-5-7-10t-2-11q0-6 2-11t7-10l351-351q11-11 28-11t28 11q12 12 12 28.5T428 261L113 576l315 315q12 12 11.5 28.5T428 947q-12 12-28.5 12T372 948Z"/></svg></div>
+
+            <div class="cards__testimony">
+                <img
+                src="images/Iphone.png"
+                alt=""
+                width="50"
+                height="50"
+                border-radius="50px"
+              />
+              <div class="testimony">
+                <p>This is one of the best apps I've used so far. The community is so lovely and everyone is so nice and meeting new people has always been very fun. I just love how everthing is easy and my hikes have never been better</p>
+                <p class="username">- Elaina Scott</p>
+              </div>
+            </div>
+              
+            <div class="arrows"><svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M276 945q-11-12-11.5-28t11.5-28l315-315-315-315q-11-11-11.5-27.5T276 203q11-12 27.5-12.5T332 202l351 351q5 5 7 10t2 11q0 6-2 11t-7 10L332 946q-11 11-27.5 11T276 945Z"/></svg></div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="quote-container">
-      <div class="quote">
-        <div class="quote-main">This is an inspiring quote or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-      <div class="quote-author">- Thor God of Thunder</div>
-      </div>
+    <section class="call-to-action">
+        <div class="cta-container">
+            <div class="rhs">
+                <h3>Get in touch with us today!</h3>
+                <p>Facing problems while using our app? Our customer support is always there to help you 24/7. Send us a message by clicking on the button.</p>
+            </div>
+            <div>
+                <button class="cta-btn">Contact Us</button>
+            </div>
+        </div>
     </section>
 
-    <section class="call-container">
-      <div class="main">
-        <div class="left">
-          <h2>Call to action! It's time!</h2>
-          <p>Sign up for our product by clicking that button right over there </p>
-        </div>
-        <div class="right">
-          <button class="btn-outline">Sign up</button>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div>Copyright @ <span><a href="https://theodinproject.com" target="_ba
-        ">The Odin Project 2023</a></span></div>
+    <footer>
+        <p>Copyright @ <span><a href="http://theodinproject.com" target="_blank">Odin Project 2023</a></span></p>
     </footer>
 
   </body>
